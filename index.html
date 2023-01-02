@@ -12,7 +12,7 @@
     <script>
         window.onload = ()=> {
             const video = document.getElementById('myVideo');
-            video.play().catch(err => console.log(err)
+            video.play();
         }
     </script>
 
@@ -20,7 +20,7 @@
 
 
     <div class="hero-bg">
-        <video autoplay id="myVideo">
+        <video id="myVideo" muted autoplay>
             <source src="bg/video.mp4" type="video/mp4">
         </video>
 
